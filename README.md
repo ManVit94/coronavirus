@@ -3,6 +3,7 @@ Saves statistic to CoronaVirusDb
 
 Function in Database:
     Table-valued Functions:
+        
         fnGetStatisticByCountry - returns last 180 days statistic for selected country
         Usage: select * from fnGetStatisticByCountry('Ukraine')
 
