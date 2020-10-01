@@ -15,5 +15,3 @@ Function in Database:
 Stored procedures in Database:
     spGetTotalStatistic {n} - returns total statistic (sum of values) for last {n} days (but not more than 30, if {n} is not provided or > 30 returns 1 day)
     Usage: exec spGetTotalStatistic 5
-
-    test
